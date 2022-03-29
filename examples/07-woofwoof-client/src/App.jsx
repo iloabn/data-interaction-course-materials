@@ -6,7 +6,7 @@ import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="app">
-      <h1 className="app__header">Woof Woof!</h1>
+      <h1 className="app__header">Dogs in the cloud!</h1>
       <div className="app__content">
         <Routes>
           <Route path="/" element={<DogList />} />
