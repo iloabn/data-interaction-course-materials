@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const DogListItem = ({ dog }) => (
   <li key={dog._id} className={"dog-list-item"}>
     <Link className="dog-list-item__link" to={`/dogs/${dog._id}`}>
-      <img className="dog-list-item__logo" src={dog.url} />
+      <img className="dog-list-item__logo" alt={dog.title} src={dog.url} />
       <span className="dog-list-item__title">{dog.title}</span>
     </Link>
   </li>

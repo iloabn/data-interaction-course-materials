@@ -47,7 +47,7 @@ export const Dog = () => {
   return (
     <div className="dog">
       <h2 className="dog__header">{dog.title}</h2>
-      <img className="dog__image" src={dog.url} />
+      <img className="dog__image" alt={dog.title} src={dog.url} />
       <div className="dog__info"></div>
     </div>
   );
